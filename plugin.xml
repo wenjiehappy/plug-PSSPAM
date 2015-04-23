@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+          <wizard
+            category="com.tju.passd.wizard"
+            class="com.tju.passd.wizard.PassdProjectWizard"
+            id="com.tju.passd.wizard.project"
+            name="PASSD Project"
+            project="true">
+         <description>
+            Create a new PASSD project
+         </description>
+      </wizard>
+       <category
+            id="com.tju.passd.wizard"
+            name="PASSD">
+      </category>
+   </extension>
+
+</plugin>
